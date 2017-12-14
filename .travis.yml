@@ -1,5 +1,6 @@
 after_success:
 - mvn clean cobertura:cobertura coveralls:report
+dist: precise
 jdk:
 - oraclejdk8
 language: java
